@@ -1,0 +1,43 @@
+img.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.content .more-link .fa {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Git section */
+.ghfeed {
+    width: 550px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.ghfeed,
+.ghfeed *,
+.ghfeed *:before,
+.ghfeed *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+@media (max-width: 640px) {
+    .ghfeed {
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ghfeed {
+        visibility: hidden;
+    }
+}
